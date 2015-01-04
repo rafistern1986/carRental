@@ -49,7 +49,7 @@ $(document).ready(function () {
     })
     
     $("#xToGoBackReviewPage").on("click", function () {
-         $("#popUpAlert").hide();$("#cancelInputs").hide();$(".theWholePage").removeClass("opa");
+         $("#popUpAlert").hide();$("#cancelInputs").hide(); $("#signInUpInputs").hide();$(".theWholePage").removeClass("opa");
     })
 
 })
