@@ -203,7 +203,7 @@
     display: none;
     position: absolute;
     background-color: rgb(87, 115, 255);
-    color: white;
+    color: red;
     padding: 5px;
     border-radius: 20px;
 }
