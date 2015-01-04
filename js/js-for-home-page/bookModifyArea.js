@@ -1,12 +1,12 @@
 $(document).ready(function () {
-    navigator.sayswho = (function () {
+/*    navigator.sayswho = (function () {
         var ua = navigator.userAgent,
             tem,
             M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
         if (M[1] !== 'Chrome') {
             location.replace("webSiteNotGood.html")
         }
-    })();
+    })();*/
 
     $("#signIn").on("click", function () {
         location.assign("sign%20in%20page.html?logIn");
