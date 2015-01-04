@@ -1,0 +1,205 @@
+.priceArea {
+    background-image: url(https://images.hertz.com/rac/misc/white85p_400x400.png);
+    width: 38%;
+    height: auto;
+    position: absolute;
+    float: left;
+    margin-left: 29%;
+    margin-top: 1%;
+    box-shadow: #444 0px 0px 70px;
+    border-radius: 25px;
+}
+.priceForRental {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(87, 115, 255);
+}
+.insidePriceArea {
+    margin: 4%;
+}
+.milesMessege {
+    text-align: center;
+    color: red;
+}
+.addMilesOrContinue {
+    margin-top: 6%;
+    display: flex;
+}
+.addMilesDiv {} .addMilesInput {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10%;
+}
+.continueDiv {
+    text-align: center;
+}
+.continueInput {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10%;
+}
+.calculateDetails {
+    text-align: center;
+}
+.distensArea {
+    background-image: url(https://images.hertz.com/rac/misc/white85p_400x400.png);
+    width: 68%;
+    height: 516px;
+    position: relative;
+    margin-left: 16%;
+    margin-top: 1%;
+    box-shadow: #444 0px 0px 70px;
+    display: none;
+    background-color: gray;
+    border-radius: 25px;
+}
+.startingDestination {
+    display: flex;
+}
+.startingPoint {
+    text-align: right;
+    margin-top: 2%;
+}
+.destinationPoint {
+    margin: 2%;
+}
+.mapUsaCanvas {
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+    border: white solid 6px;
+    width: 95%;
+    margin-left: 1.7%;
+}
+.lineHeight {
+    line-height: 49px;
+    margin-left: -13%;
+}
+.chiceHowToAddKm {
+    display: flex;
+    padding: 20px;
+}
+.totalAmountOfKm {
+    text-align: center;
+    margin: 2%;
+    display: none;
+}
+.selectAmountOfKm {
+    text-align: center;
+}
+.makeItBigger {
+    height: 1029px;
+}
+.makeImgBigger {
+    height: 950px;
+}
+.calculateDetailsForKm {
+    display: none;
+}
+.statusIfClientCameFromHomePage {
+    margin-left: 25%;
+    display: none;
+}
+.putItInTheMiddle {
+    text-align: center;
+}
+.height562px {
+    height: 562px;
+}
+.cityName {
+    display: none;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+.musicPlayer {
+    display: none;
+}
+.loadingPopUp {
+    width: 16%;
+    border-radius: 90px;
+    /* display: none; */
+    position: fixed;
+    z-index: 1000;
+    display: none;
+    margin-left: 43%;
+    margin-top: 16%;
+    background-color: rgb(87, 115, 255);
+}
+.gifImg {
+    width: 100%;
+    position: relative;
+}
+.oneMoment {
+    text-align: center;
+    margin-top: -56%;
+    margin-left: 33%;
+    position: absolute;
+    font-size: 17px;
+}
+.currentLocationInput {
+    width: 10px;
+}
+.currentLocation {
+    font-size: 10px;
+}
+.makeMeRed {
+    color: red;
+}
+.opa {
+    opacity: 0.4;
+}
+.flexTheKids {
+    display: flex;
+}
+@media screen and (max-width: 650px) {
+    .priceArea {
+        width: 92%;
+        margin-left: 4%;
+        margin-top: 3%;
+    }
+    .distensArea {
+        width: 98%;
+        margin-left: 1%;
+        margin-top: 6%;
+        height: 544px;
+    }
+    .startingPoint {
+        flex: 2;
+        text-align: center;
+    }
+    .height562px {
+        height: 595px;
+    }
+    .destinationPoint {
+        flex: 2;
+    }
+    .addKmToRentalFromMap {
+        margin-top: 24%;
+    }
+    .loadingPopUp {
+        width: 32%;
+        margin-left: 33%;
+        margin-top: 30%;
+    }
+    .dispalyNoneUnder650px {
+        visibility: hidden;
+        display: none;
+    }
+}
+.xToGoBackPricePage {
+    width: 27px;
+    height: 27px;
+    background-color: red;
+    color: white;
+    display: inline-block;
+    float: left;
+    border-radius: 20px;
+    margin-left: -9px;
+    line-height: 26px;
+    cursor: pointer;
+}
