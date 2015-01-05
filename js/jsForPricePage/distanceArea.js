@@ -95,7 +95,7 @@ $(document).ready(function () {
         $("#addMilesInput").hide();
         $("#addKmText").hide();
 
-        amountOfKm = parseFloat(amountOfKm);
+        amountOfKm = parseInt(amountOfKm);
         if (amountOfKm > 89) {
             var lessThen91 = 90 * 0.50;
             var moreThen90 = (amountOfKm - 90) * 0.30;
@@ -107,15 +107,15 @@ $(document).ready(function () {
         var gear = usersBookingOrderUntilNow[0].gear;
         if (gear == "manual") {
             costForTheKm = (costForTheKm - costForTheKm * 8 / 100).toFixed(2);
-            costForTheKm = parseFloat(costForTheKm);
+            costForTheKm = parseInt(costForTheKm);
         }
 
         var currentRentalAmount = $("#calculatetPrice").text();
-        currentRentalAmount = parseFloat(currentRentalAmount);
+        currentRentalAmount = parseInt(currentRentalAmount);
         var total = costForTheKm + currentRentalAmount;
         $("#calculatetPrice").text(total);
         var currentKmAmount = $("#amountOfKmIncluded").text();
-        currentKmAmount = parseFloat(currentKmAmount);
+        currentKmAmount = parseInt(currentKmAmount);
         var totalKm = amountOfKm + currentKmAmount;
         $("#amountOfKmIncluded").text(totalKm);
         $("#kmAmount").text(amountOfKm);
