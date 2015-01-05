@@ -7,9 +7,9 @@ $(document).ready(function () {
 
     var bookingDetails = JSON.parse(localStorage.getItem("bookingDetails"));
 
-    var rentalDays = parseFloat(bookingDetails[0].rentalDays);
-    var carPrice = parseFloat(bookingDetails[0].carPrice);
-    var totalCarPrice = parseFloat(bookingDetails[0].totalCarPrice);
+    var rentalDays = parseInt(bookingDetails[0].rentalDays);
+    var carPrice = parseInt(bookingDetails[0].carPrice);
+    var totalCarPrice = parseInt(bookingDetails[0].totalCarPrice);
     var baseRate = rentalDays * carPrice;
     var allKmPrice = totalCarPrice - baseRate;
     allKmPrice = parseInt(allKmPrice);
