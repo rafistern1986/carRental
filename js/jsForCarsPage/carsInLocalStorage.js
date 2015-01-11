@@ -47,7 +47,7 @@ $(document).ready(function () {
 
         /*FULL SIZE*/
         /*full size toyota camery*/
-        var toyotaCamery_Obj = new CarDetails("FullSize", "Toyota", "Camery", "5333164", 2014, "automatic", 30, "http://carimages.org/car/styles/1366x768/public/toyota-camry-2016_0.jpg?itok=wDDMYIE-");
+        var toyotaCamery_Obj = new CarDetails("FullSize", "Toyota", "Camry", "5333164", 2014, "automatic", 30, "http://carimages.org/car/styles/1366x768/public/toyota-camry-2016_0.jpg?itok=wDDMYIE-");
         putCarObjIntoArr(toyotaCamery_Obj);
         /*full size honda acord*/
         var hondaAccord_Obj = new CarDetails("FullSize", "Honda", "Accord", "3534133", 2014, "automatic", 30, "http://autotextbook.ru/wp-content/uploads/2014/09/Perfect-Style-And-Perfect-Shape-Of-Honda-Accord-2014.jpg");
